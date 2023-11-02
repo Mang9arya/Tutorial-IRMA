@@ -1,0 +1,1 @@
+java  -Dspring.datasource.url=jdbc:mysql://localhost:3307/avr?serverTimezone=Asia/Singapore -Dspring.datasource.username=allteam -Dspring.datasource.password=Aviana1122 -Dirmapay.apikey=ConEnW0FBaX26NbiDweLe6qDvkldj68Z9WmYabXEffwFSb8Sqf41Yi7vkVxrq7Lo -Dserver.port=8099 -Dirmapay.kodeakun=1123 -jar irmaconnect.jar
