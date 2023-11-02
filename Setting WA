@@ -1,0 +1,36 @@
+buat folder kosong (irsv9)
+git clone  https://gitlab.com/avianadev/irs9/webportal9new.git
+user :  wisnu@aviana.co.id
+pass : HANDSOME123
+
+
+
+-git status
+-git checkout .
+-git checkout 2.0
+
+
+-masuk ke webportal9new
+-npm install
+-npm audit fix
+
+-stop webportal sebelumnya
+
+-ganti env yang lama( port) dan copy env ke yang webportal baru 
+ ---pindahkan cetakstruk.js dan matikan pin standart di transaksi.js----
+
+-ganti ecosistem nama webportal menjadi 2.0
+
+pm2 reload ecosystem
+pm2 save
+
+-git status
+-git checkout .
+-git checkout 2.0
+
+
+pm2 stop webportal-2.0
+pm2 start webportal2.0
+TERMINAL_WA=irswacenter
+wanode
+pm2 restart webportal 2.0
